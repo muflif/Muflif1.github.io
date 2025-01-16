@@ -1,0 +1,113 @@
+html {
+ 
+}
+body{
+    background-color: rgb(15, 9, 0);
+    margin: 0%;
+    padding: 0%;
+}
+head{
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+} 
+header {
+    color: #eaff00;
+    padding: 20px;
+    text-align: right;
+} 
+.menu-toggle {
+    display: inline-block;
+}  
+.menu-icon {
+    cursor: pointer;
+    display: block;
+    position: relative;
+}  
+.menu-icon span {
+    background-color: #fff;
+    display: block;
+    height: 2px;
+    margin-bottom: 5px;
+    width: 20px;
+}  
+#toggle {
+    display: none;
+}  
+#toggle:checked ~ .menu {
+    display: block;
+} 
+.menu {
+    display: none;
+    padding: 20px;
+    position: absolute;
+    right: 0;
+    top: 35px;
+    width: 200px;
+}  
+.menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+} 
+.menu li {
+    margin-bottom: 10px;
+}
+.menu a {
+    color: #fff;
+    text-decoration: none;
+}
+.menu a:hover {
+    color: #ffcc00;
+} 
+.h1{
+    text-align: center;
+    font-size: 100px;
+    margin: 5px;
+    padding: 7px;
+    font-style: bold;
+    font-family:cursive;
+    color:rgb(255, 4, 4);
+    font-style: italic;
+    line-height: 40px;
+    text-shadow: 8px 2px 2px rgb(255, 255, 255);
+}
+.h2{
+    text-align: center;
+    font-size: 100px;
+    margin: 5px;
+    padding: 7px;
+    font-style: bold;
+    font-family:cursive;
+    color:rgb(249, 247, 246);
+    font-style: italic;
+    line-height: 40px;
+    text-shadow: 8px 2px 2px rgb(252, 5, 5);
+}
+.h3{
+    text-align: center;
+    font-size: 100px;
+    margin: 5px;
+    padding: 7px;
+    font-style: bold;
+    font-family:cursive;
+    color:rgb(5, 253, 253);
+    font-style: italic;
+    line-height: 40px;
+    text-shadow: 8px 2px 2px rgb(252, 165, 4);
+}
+
+.ft{
+    color: aqua;
+    padding: 350px;
+}
+.img{
+    width:140px ;
+    height:180px ;
+    margin: 150px;
+    border-image:fill;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgb(2, 234, 250);
+}
